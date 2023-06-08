@@ -1,9 +1,9 @@
 :root {
-    --Brighthighlight: #ffe761;
-    --genericlight: #a8ccc9;
-    --genericvivid: #357266;
-    --contrastlight: #beb298;
-    --contrastvivid:#65532f;
+    --Generic: #ffe761;
+    --lightColorCne: #a8ccc9;
+    --darkColorOne: #357266;
+    --lightColorTwo: #beb298;
+    --darkColorTwo:#65532f;
    
 }
 
@@ -13,11 +13,16 @@ Header div {
     justify-content: space-around;
 }
 
+nav ul {
+    display: flex;
+    gap: 20px
+}
 
 nav ul li {
     border: 1px red solid;
     display: inline; 
     list-style: none;
+    
   
 }
 
