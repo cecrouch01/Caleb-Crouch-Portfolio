@@ -7,17 +7,22 @@
    
 }
 
-nav {  
+Header h1 {
+    border: 1px red solid;
+      
+}
+
+nav {
+    border: 1px red solid;
+    width:50%;
+    float: right
 }
 
 nav ul {
     background-color: var(--genericlight);
-    position: relative;
-    float: right;
     display: flex;
     list-style: none;
     justify-content: space-evenly;
-    width: 50%;
 }
 
 #Contact {
@@ -26,37 +31,22 @@ nav ul {
 }
 
 #Skills {
-    float: left;
-    width: 36%;
     border: 1px red solid;
-}
-#euphlogo {
-    border: 1px red solid;
-    width: 60%;
-    height: auto;
-    float: right;
 }
 
 #portrait {
     border: 1px red solid;
-    width: 40%;
-    height: auto;
-    float: left;
 }
 
 #About-Me {
     border: 1px red solid;
-    float: right;
-    width: 60%;
 }
 
 #Work {
     border: 1px red solid;
-    float: left;
-    width: 100%
 }
 
 footer {
     border: 1px red solid;
-    position: end;
+
 }
