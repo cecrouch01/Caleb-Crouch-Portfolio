@@ -7,22 +7,18 @@
    
 }
 
-Header h1 {
+Header div {
     border: 1px red solid;
-      
-}
-
-nav {
-    border: 1px red solid;
-    width:50%;
-    float: right
-}
-
-nav ul {
-    background-color: var(--genericlight);
     display: flex;
+    justify-content: space-around;
+}
+
+
+nav ul li {
+    border: 1px red solid;
+    display: inline; 
     list-style: none;
-    justify-content: space-evenly;
+  
 }
 
 #Contact {
