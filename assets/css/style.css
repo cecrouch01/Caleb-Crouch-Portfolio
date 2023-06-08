@@ -4,4 +4,49 @@
     --genericvivid: #357266;
     --contrastlight: #beb298;
     --contrastvivid:#65532f;
+   
+}
+
+Header h1 {
+    border: 1px red solid;
+      
+}
+
+nav {
+    border: 1px red solid;
+    width:50%;
+    float: right
+}
+
+nav ul {
+    background-color: var(--genericlight);
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+}
+
+#Contact {
+    border: 1px red solid;
+    text-align: center;
+}
+
+#Skills {
+    border: 1px red solid;
+}
+
+#portrait {
+    border: 1px red solid;
+}
+
+#About-Me {
+    border: 1px red solid;
+}
+
+#Work {
+    border: 1px red solid;
+}
+
+footer {
+    border: 1px red solid;
+
 }
