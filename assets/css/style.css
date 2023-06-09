@@ -7,6 +7,14 @@
    
 }
 
+#hero {
+    height: 300px;
+    width: 100%;
+    background-image: url(../images/Copy\ of\ Promo\ Pic\ 2\ Opus\ One\ \(YouTube\ Thumbnail\).png);
+    background-size: cover;
+    background-position: center;
+}
+
 Header div {
     border: 1px red solid;
     display: flex;
