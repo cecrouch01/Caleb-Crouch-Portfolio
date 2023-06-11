@@ -52,10 +52,18 @@ nav ul li {
     border: 1px red solid;
     width: 20%;
     Height: auto;
+    border-radius: 50%;
+    padding: 10px;
+
 }
 
 #About-Me {
     border: 1px red solid;
+}
+
+#About-Me p {
+    width: 60%;
+    
 }
 
 #Work {
