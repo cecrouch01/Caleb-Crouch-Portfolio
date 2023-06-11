@@ -79,6 +79,12 @@ nav ul li {
     border: 1px red solid;
 }
 
+.Work-Images {
+    display: grid;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
 footer {
     border: 1px red solid;
 
