@@ -7,8 +7,13 @@
    
 }
 
+
 body {
     margin: 0px;
+}
+
+a {
+    text-decoration: none;
 }
 
 #hero {
@@ -35,13 +40,17 @@ nav ul li {
     border: 1px red solid;
     display: inline; 
     list-style: none;
-    
-  
+}
+
+#Contact-Me ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
 }
 
 #Contact {
     border: 1px red solid;
-    text-align: center;
 }
 
 #Skills {
