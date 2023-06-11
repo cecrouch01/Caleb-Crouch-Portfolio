@@ -7,12 +7,17 @@
    
 }
 
+body {
+    margin: 0px;
+}
+
 #hero {
     height: 300px;
     width: 100%;
     background-image: url(../images/Copy\ of\ Promo\ Pic\ 2\ Opus\ One\ \(YouTube\ Thumbnail\).png);
     background-size: cover;
     background-position: center;
+    margin: 0px;
 }
 
 Header div {
@@ -45,6 +50,8 @@ nav ul li {
 
 #portrait {
     border: 1px red solid;
+    width: 20%;
+    Height: auto;
 }
 
 #About-Me {
