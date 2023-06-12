@@ -118,12 +118,28 @@ nav ul li a {
   flex-wrap: wrap;
 }
 
-@media screen and (max-width: 836px){
-    
-}
 
 @media screen and (max-width: 768px) {
+    h1 {
+        margin: 0 0 0 5%;
+    }
+
+    #Contact-Me h2{
+        margin: 10px 0 0 5%;    
+    }
     
+    #About-Me {
+        margin: 0 0 0 5%; 
+    }
+
+#Work {
+        align-content: flex-start;
+        margin: 0 0 0 5%;
+    }
+
+    .Work h2 {
+        margin: 0 0 0 5%
+    }
 }
 
 @media screen and (max-width: 564px) {
@@ -133,7 +149,7 @@ nav ul li a {
         align-items: flex-start;
     }
     h1 {
-        margin: 0 0 0 40px;
+        margin: 0 0 0 10%;
     }
     #hero {
         height: 200px;
@@ -145,7 +161,7 @@ nav ul li a {
     }
 
     #Contact-Me h2{
-        margin: 10px 0 0 40px;    
+        margin: 10px 0 0 10%;    
     }
     
     #Contact-Me ul {
@@ -158,7 +174,7 @@ nav ul li a {
         flex-wrap: wrap;
         flex-direction: column;
         justify-content: space-evenly;
-        margin: 0 0 0 40px; 
+        margin: 0 0 0 10%; 
         gap: 10px;
     }
 
@@ -175,17 +191,17 @@ nav ul li a {
     }
 
     #Work {
-        margin: 0 0 0 -70px;
         display: flex;
         flex-direction: column;
         align-items: flex-start;
         flex-wrap: wrap;
         align-content: center;
         justify-content: space-evenly;
+        margin: 0 0 0 10%;
     }
 
     .Work h2 {
-        margin: 0 0 0 40px
+        margin: 0 0 0 10%
     }
 
     #Work p {
