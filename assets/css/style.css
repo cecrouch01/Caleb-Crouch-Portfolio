@@ -1,28 +1,34 @@
 :root {
-    --Generic: #ffe761;
-    --lightColorCne: #a8ccc9;
-    --darkColorOne: #357266;
-    --lightColorTwo: #beb298;
-    --darkColorTwo:#65532f;
+    --Generic: #ebf5ee;
+    --lightColorCne: #78a1bb;
+    --darkColorOne: #283044;
+    --lightColorTwo: #bfa89e;
+    --darkColorTwo:#8b786d;
 }
 
 body {
     margin: 0px;
+    background-color: var(--lightColorCne);
+    color: var(--Generic);
 }
+
 
 h2 {
     width: 10%;
     height: auto;
     margin: 11px 0 0 10px;
     text-align: center;
+    display: inline;
 }
 
 p {
     width: 600px;
+
 }
 
 a {
     text-decoration: none;
+    color: var(--Generic);
 }
 
 #hero {
@@ -39,6 +45,13 @@ Header div {
     justify-content: space-around;
 }
 
+#Header {
+    background-color: var(--darkColorOne);
+    display: flex;
+    align-items: center;
+    color: var(--lightColorTwo);
+}
+
 nav ul {
     display: flex;
     gap: 20px
@@ -48,6 +61,11 @@ nav ul li {
     display: inline; 
     list-style: none;
 }
+
+nav ul li a {
+    color: var(--lightColorTwo);
+}
+
 #Contact-Me {
     display: flex;
     gap: 40px;
@@ -95,9 +113,4 @@ nav ul li {
   gap: 5px;
   justify-content: space-evenly;
   flex-wrap: wrap;
-}
-
-footer {
-    border: 1px red solid;
-
 }
