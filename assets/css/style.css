@@ -7,6 +7,15 @@
    
 }
 
+h2 {
+    width: 10%;
+    height: auto;
+    border: 1px red solid;
+}
+
+p {
+    width: 600px;
+}
 
 body {
     margin: 0px;
@@ -41,24 +50,21 @@ nav ul li {
     display: inline; 
     list-style: none;
 }
+#Contact-Me {
+    display: flex;
+    gap: 40px;
+}
 
 #Contact-Me ul {
     list-style: none;
     display: flex;
     justify-content: space-evenly;
-    padding: 10px;
-}
-
-#Contact {
+    width: 600px;
     border: 1px red solid;
-}
-
-#Skills {
-    border: 1px red solid;
+    align-items: center;
 }
 
 #portrait {
-    border: 1px red solid;
     width: 20%;
     Height: auto;
     border-radius: 50%;
@@ -67,22 +73,27 @@ nav ul li {
 }
 
 #About-Me {
-    border: 1px red solid;
+    display: flex;
+    align-items: center;
 }
 
 #About-Me p {
     width: 60%;
-    
+    margin: 0 26px 0 0;
 }
 
 #Work {
-    border: 1px red solid;
+    display: flex;
+    flex-direction: column;
+    margin: 0 264px 0 0;
 }
 
 .Work-Images {
-    display: grid;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+  display: flex;
+  width: 700px;
+  gap: 5px;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 footer {
