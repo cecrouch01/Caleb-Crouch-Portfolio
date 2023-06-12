@@ -50,6 +50,7 @@ Header div {
     display: flex;
     align-items: center;
     color: var(--lightColorTwo);
+    flex-wrap: wrap;
 }
 
 nav ul {
@@ -69,6 +70,7 @@ nav ul li a {
 #Contact-Me {
     display: flex;
     gap: 40px;
+    flex-wrap: wrap;
 }
 
 #Contact-Me ul {
@@ -77,6 +79,7 @@ nav ul li a {
     justify-content: space-evenly;
     width: 600px;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 #portrait {
@@ -124,5 +127,82 @@ nav ul li a {
 }
 
 @media screen and (max-width: 564px) {
+    #Header {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    h1 {
+        margin: 0 0 0 40px;
+    }
+    #hero {
+        height: 200px;
+    }
     
+    #Contact-Me {
+        gap: 10px;
+        flex-direction: column;
+    }
+
+    #Contact-Me h2{
+        margin: 10px 0 0 40px;    
+    }
+    
+    #Contact-Me ul {
+        flex-direction: column;
+        gap: 10px;
+        align-items: flex-start;
+    }
+    #About-Me {
+        align-items: flex-start;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin: 0 0 0 40px; 
+        gap: 10px;
+    }
+
+    #portrait {
+        width: 50%;
+    }
+
+    .Work div {
+        justify-content: center;
+        gap: 10px;
+        flex-direction: column;
+        align-items: flex-start;
+        flex-wrap: wrap;
+    }
+
+    #Work {
+        margin: 0 0 0 -70px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: space-evenly;
+    }
+
+    .Work h2 {
+        margin: 0 0 0 40px
+    }
+
+    #Work p {
+        width: 50%;
+
+    }
+    .Work-Images {
+        display: flex;
+        width: 400px;
+        gap: 5px;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        align-content: flex-start;
+    }
+    .large-image {
+        width: 80%;
+    }
 }
