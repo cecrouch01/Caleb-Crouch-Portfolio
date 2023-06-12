@@ -75,6 +75,8 @@ nav ul li {
 #About-Me {
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    border: 1px red solid;
 }
 
 #About-Me p {
@@ -92,7 +94,7 @@ nav ul li {
   display: flex;
   width: 700px;
   gap: 5px;
-  justify-content: space-evenly;
+  justify-content: flex-start;
   flex-wrap: wrap;
 }
 
