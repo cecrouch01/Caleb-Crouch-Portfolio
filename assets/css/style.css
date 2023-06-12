@@ -114,3 +114,15 @@ nav ul li a {
   justify-content: space-evenly;
   flex-wrap: wrap;
 }
+
+@media screen and (max-width: 836px){
+    
+}
+
+@media screen and (max-width: 768px) {
+    
+}
+
+@media screen and (max-width: 564px) {
+    
+}
