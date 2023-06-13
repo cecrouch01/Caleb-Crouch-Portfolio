@@ -11,6 +11,8 @@ N/A
 
 ## Usage
 
+Website URL: https://cecrouch01.github.io/Caleb-Crouch-Portfolio/
+
 To use this website you can either use the scroll function to scroll through the web page or use the Navigation Bar at the top to jump to the sections you would like to. Also, in the contact me section you can use the GitLab link and the Linkedin link to go to my personal GitLab and Linkedin Profile. All are included in the picture below.
 
 
