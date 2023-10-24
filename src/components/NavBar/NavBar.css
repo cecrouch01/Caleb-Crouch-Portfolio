@@ -1,0 +1,10 @@
+.curtain-closed {
+    height: 100vh;        
+    border-bottom: 5px solid blue;
+}
+
+.curtain-open {
+    animation-name: change-height;
+    animation-duration: 7s;
+    animation-timing-function: linear;
+}
