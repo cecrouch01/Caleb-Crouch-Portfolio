@@ -1,10 +1,54 @@
+nav {
+    position: relative;
+}
 .curtain-closed {
     height: 100vh;        
     border-bottom: 5px solid blue;
+    /* flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    transition: all 1s; 
+}
+
+
+ul {
+    display: flex;
+}
+
+li {
+    margin: 10px;
+}
+
+.closed-title {
+    margin-top: 15%;
+    margin-left: 35%;
+    transition: margin 1s;
+    
+}
+
+.closed-ul {
+    margin-top: 0%;
+    margin-left: 31%;
+    transition: margin .5s;
 }
 
 .curtain-open {
-    animation-name: change-height;
-    animation-duration: 7s;
-    animation-timing-function: linear;
+    height: 15vh;
+    border-bottom: 5px solid blue;
+    /* flex-direction: row;
+    align-items: center;
+    justify-content: flex-start; */
+    transition: all 1s;
+}
+
+.open-title {
+    margin-top: 2%;
+    margin-left: 1%;
+    transition: margin 1s;
+}
+
+.open-ul {
+    margin-top: -7%;
+    margin-left: 27%;
+    transition: margin 1.2s;
 }

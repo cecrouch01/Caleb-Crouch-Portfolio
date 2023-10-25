@@ -4,11 +4,11 @@ import './NavBar.css';
 function NavBar() {
     const currentPage = useLocation().pathname;
     return (
-        <nav className='nav-bar'>
-            <h1 className='title'>
+        <nav className={currentPage === '/' ? 'curtain-closed' : 'curtain-open'}>
+            <h1 className={currentPage === '/' ? 'closed-title' : 'open-title'}>
                 Caleb Crouch
             </h1>
-            <ul>
+            <ul className={currentPage === '/' ? 'closed-ul' : 'open-ul'}>
                 <li>
                     <Link to='/'>
                         Home
@@ -21,7 +21,7 @@ function NavBar() {
                 </li>
                 <li>
                     <Link to='/project'>
-                        project
+                        Project
                     </Link>
                 </li>
                 <li>
