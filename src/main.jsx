@@ -4,11 +4,11 @@ import './index.css';
 
 import App from './App.jsx';
 // import Error from './pages/Error';
-import Home from './pages/Home';
-import About from './pages/About';
-import Project from './pages/Project';
-import Contact from './pages/Contact';
-import Resume from './pages/Resume'; 
+import Home from './pages/Home/Home.jsx';
+import About from './pages/About/About.jsx';
+import Project from './pages/Project/Project.jsx';
+import Contact from './pages/Contact/Contact.jsx';
+import Resume from './pages/Resume/Resume.jsx'; 
 
 const router = createBrowserRouter([
   {
