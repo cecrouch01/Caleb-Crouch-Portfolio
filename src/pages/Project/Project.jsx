@@ -32,15 +32,17 @@ export default function Project() {
             {arr.map((data, index) => {
                 return(
                 <Card key={index}>
-                    <h3>{data.title}</h3>
-                    <ul>
-                        {data.stack.map((tech, index) => {
-                            <li key={index}>{tech}</li>
-                        })}
-                    </ul>
-                    <p>{data.description}</p>
-                    <img src={data.image} />
-                    <p>{data.contributions}</p>
+                    <div className='project-card-contents'>
+                        <h3>{data.title}</h3>
+                        <ul>
+                            {data.stack.map((tech, index) => {
+                                return <li key={index}>{tech}</li>
+                            })}
+                        </ul>
+                        <p>{data.description}</p>
+                        <img src={data.image} />
+                        <p>{data.contributions}</p>
+                    </div>
                 </Card>
                 )
             })}
