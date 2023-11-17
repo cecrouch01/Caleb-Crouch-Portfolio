@@ -25,9 +25,29 @@ export default function About() {
             <h2 className='page-title'>About</h2>
             {array.map((arr, index) => {
                 if(index % 2 === 0) {
-                    return <Card key={index} type='card-left' title={arr.title} body={arr.body} img={arr.image} />
+                    return (
+                    <Card key={index}>
+                    <div className='about-card card-left'>
+                        <img src={arr.image} className="card-image" />
+                        <div className="card-text">
+                            <h3>{arr.title}</h3>
+                            <p>{arr.body}</p>
+                        </div>
+                    </div>
+                    </Card>
+                    )
                 } else {
-                    return <Card key={index} type='card-right' title={arr.title} body={arr.body} img={arr.image} />
+                    return (
+                        <Card key={index}>
+                            <div className='about-card card-right'>
+                                <img src={arr.image} className="card-image" />
+                                <div className="card-text">
+                                    <h3>{arr.title}</h3>
+                                    <p>{arr.body}</p>
+                                </div>
+                            </div>
+                        </Card>
+                    )
                 }
             })}
         </>
